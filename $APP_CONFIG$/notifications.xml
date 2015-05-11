@@ -1,0 +1,13 @@
+<application>
+  <component name="NotificationConfiguration" showBalloons="false">
+    <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Maven Import" displayType="STICKY_BALLOON" />
+    <notification groupId="SbtImportMessage" displayType="STICKY_BALLOON" />
+    <toolWindow group="Find in Path" />
+    <toolWindow group="Common Version Control Messages" />
+    <toolWindow group="HotSwap" />
+    <toolWindow group="Debugger messages" />
+    <toolWindow group="Inspection Results" />
+    <toolWindow group="Vcs Messages" />
+  </component>
+</application>
