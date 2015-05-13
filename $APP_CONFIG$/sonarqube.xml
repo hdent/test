@@ -1,0 +1,13 @@
+<application>
+  <component name="SonarQubeSettings">
+    <option name="servers">
+      <list>
+        <SonarQubeServer>
+          <option name="id" value="ldirect" />
+          <option name="url" value="http://s2vldevsonar01.npd.learndirect.com:9000" />
+          <option name="username" value="" />
+        </SonarQubeServer>
+      </list>
+    </option>
+  </component>
+</application>
