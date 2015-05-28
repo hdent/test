@@ -628,6 +628,14 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="INDENT">
+      <value>
+        <option name="FOREGROUND" value="ff0000" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="ff00" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="INFORMATION_ATTRIBUTES">
       <value>
         <option name="EFFECT_TYPE" value="0" />
@@ -688,16 +696,24 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="LF">
+      <value>
+        <option name="FOREGROUND" value="ff0000" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="ff00" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="LINE_FULL_COVERAGE">
       <value>
-        <option name="FOREGROUND" value="ccffcc" />
+        <option name="FOREGROUND" value="2dff41" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="LINE_NONE_COVERAGE">
       <value>
-        <option name="FOREGROUND" value="ffcccc" />
+        <option name="FOREGROUND" value="ff4925" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
@@ -962,6 +978,13 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="SYMBOL">
+      <value>
+        <option name="FOREGROUND" value="ff" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="-1" />
+      </value>
+    </option>
     <option name="Static property reference ID">
       <value>
         <option name="FOREGROUND" value="660e7a" />
@@ -1028,10 +1051,32 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="VALUE">
+      <value>
+        <option name="FOREGROUND" value="ff00ff" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="ffff" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="VALUE_PREFIX">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="EFFECT_TYPE" value="-1" />
+      </value>
+    </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="f6ebbc" />
         <option name="ERROR_STRIPE_COLOR" value="ffff00" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="WHITE_SPACE">
+      <value>
+        <option name="FOREGROUND" value="ff0000" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="ff00" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>

@@ -918,6 +918,14 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="INDENT">
+      <value>
+        <option name="FOREGROUND" value="ff0000" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="ff00" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="aeae80" />
@@ -1174,6 +1182,14 @@
     <option name="LESS_VARIABLE">
       <value>
         <option name="FOREGROUND" value="d0d0ff" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="LF">
+      <value>
+        <option name="FOREGROUND" value="ff0000" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="ff00" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1892,6 +1908,13 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="SYMBOL">
+      <value>
+        <option name="FOREGROUND" value="ff" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="-1" />
+      </value>
+    </option>
     <option name="Scala Type Alias">
       <value>
         <option name="FOREGROUND" value="4e807d" />
@@ -2012,6 +2035,20 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="VALUE">
+      <value>
+        <option name="FOREGROUND" value="ff00ff" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="ffff" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="VALUE_PREFIX">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="EFFECT_TYPE" value="-1" />
+      </value>
+    </option>
     <option name="VELOCITY_DIRECTIVE">
       <value>
         <option name="FOREGROUND" value="e8bf6a" />
@@ -2062,6 +2099,14 @@
         <option name="BACKGROUND" value="52503a" />
         <option name="ERROR_STRIPE_COLOR" value="8c8c00" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="WHITE_SPACE">
+      <value>
+        <option name="FOREGROUND" value="ff0000" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="ff00" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
