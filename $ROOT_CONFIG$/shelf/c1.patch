@@ -1,0 +1,42 @@
+Index: src/main/java/com/learndirect/paycontroller/soap/SmartPayStubEndPoint.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/com/learndirect/paycontroller/soap/SmartPayStubEndPoint.java	(revision 5fcdaa1d20cac6d96ef37f00ed8d8ce8bad0e582)
++++ src/main/java/com/learndirect/paycontroller/soap/SmartPayStubEndPoint.java	(revision )
+@@ -12,6 +12,8 @@
+ import javax.xml.ws.RequestWrapper;
+ import javax.xml.ws.ResponseWrapper;
+ 
++import org.apache.cxf.interceptor.InInterceptors;
++import org.apache.cxf.interceptor.OutInterceptors;
+ import org.slf4j.Logger;
+ import org.slf4j.LoggerFactory;
+ 
+@@ -22,6 +24,8 @@
+ import com.learndirect.paycontroller.util.PSPGenerator;
+ 
+ @WebService(serviceName = "ModificationRequest", targetNamespace = "http://payment.services.adyen.com")
++@InInterceptors(classes = org.apache.cxf.interceptor.LoggingInInterceptor.class)
++@OutInterceptors(classes = org.apache.cxf.interceptor.LoggingOutInterceptor.class)
+ public class SmartPayStubEndPoint {
+ 
+     private static final Logger log = LoggerFactory.getLogger(SmartPayStubEndPoint.class);
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pom.xml	(revision 5fcdaa1d20cac6d96ef37f00ed8d8ce8bad0e582)
++++ pom.xml	(revision )
+@@ -56,6 +56,9 @@
+                                         </Implementation-Version>
+                                     </manifestEntries>
+                                 </transformer>
++                                <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
++                                    <resource>META-INF/cxf/bus-extensions.txt</resource>
++                                </transformer>
+                             </transformers>
+                         </configuration>
+                     </execution>
