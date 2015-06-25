@@ -1,0 +1,41 @@
+Index: modules/pay/manifests/init.pp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- modules/pay/manifests/init.pp	(revision 1631d82f91174080ca4382e11fa618d492730e0c)
++++ modules/pay/manifests/init.pp	(revision )
+@@ -10,7 +10,7 @@
+   $db_migration_user,
+   $db_migration_password,
+   $hosted_payment_page_url = 'https://test.barclaycardsmartpay.com/hpp/pay.shtml',
+-  $payment_endpoint_url_stub = "http://localhost:8580/smartPayStub/soap/refund",
++  $payment_endpoint_url_stub = 'http://localhost:8580/smartPayStub/soap/refund',
+   $smart_pay_sta_client_payment_endpoint_url,
+   $smart_pay_sta_client_username,
+   $smart_pay_sta_client_password,
+@@ -31,6 +31,9 @@
+   $enable_cancelOrRefunds = false,
+   $log_dir = '/var/log/dropwizard/',
+   $configure_tracelytics = false,
++  $client_timeout = '30 seconds',
++  $client_connection_timeout = '30 seconds',
++  $retries = '3'
+   ) {
+   ############
+   # Pay Service
+Index: modules/pay/templates/pay.yml.erb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- modules/pay/templates/pay.yml.erb	(revision 1631d82f91174080ca4382e11fa618d492730e0c)
++++ modules/pay/templates/pay.yml.erb	(revision )
+@@ -80,4 +80,7 @@
+   proxyScheme: http
+   proxyHost: <%= smart_pay_proxyhost %>
+   proxyPort: <%= smart_pay_proxyport %>
++  timeout: <%= client_timeout %>
++  connectionTimeout: <%= client_connection_timeout %>
++  retries: <%= client_retries %>
+       
