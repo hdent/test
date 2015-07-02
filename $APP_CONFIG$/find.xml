@@ -5,6 +5,7 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="File 'C:\Users\hannah.dent\Documents\dev\Intelij code\smartpay-stub\src\main\java\com\learndirect\paycontroller\soap\SmartPayStubEndPoint.java'" />
+    <option name="FILE_MASK" value="pom.xml" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -13,8 +14,9 @@
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
-      <mask>*.xml</mask>
       <mask>*.java</mask>
+      <mask>*.xml</mask>
+      <mask>pom.xml</mask>
     </recentFileMasks>
   </component>
 </application>
