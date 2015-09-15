@@ -1,0 +1,16 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pom.xml	(date 1442307201000)
++++ pom.xml	(revision )
+@@ -149,7 +149,7 @@
+ 
+         <!-- names -->
+         <geneses.webapp.name>productmanagement</geneses.webapp.name>
+-        <admin.webapp.name>productmanagement</admin.webapp.name>
++        <admin.webapp.name>prodductmanagement</admin.webapp.name>
+         <sta.webapp.name>sta-web</sta.webapp.name>
+         <lituk.webapp.name>lituk-web</lituk.webapp.name>
+         <dvsa.webapp.name>dvsa-web</dvsa.webapp.name>

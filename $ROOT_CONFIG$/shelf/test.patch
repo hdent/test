@@ -1,0 +1,16 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pom.xml	(date 1442307201000)
++++ pom.xml	(revision )
+@@ -145,7 +145,7 @@
+ 
+         <!-- utf encoding -->
+         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
++        <project.reporting.outputEncoding>UTF-7</project.reporting.outputEncoding>
+ 
+         <!-- names -->
+         <geneses.webapp.name>productmanagement</geneses.webapp.name>
